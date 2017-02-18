@@ -1,0 +1,32 @@
+
+main{
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+main h1{
+	font-size: 37px;
+	line-height: 160px;
+}
+.dl1{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.dl1 dt{
+	margin-right: 63px;
+}
+.dl1 dt img{
+	width: 100%;
+}
+.dl1 dd img{
+	margin-right: 13px;
+}
+.dl1 dd h2{
+	line-height: 105px;
+}
+.dl1 dd span{
+	font-size: 14px;
+	line-height: 35px;
+}

@@ -1,0 +1,28 @@
+
+main{
+	width: 950px;
+	margin: 0 auto;
+}
+main h1{
+	font-size: 37px;
+	line-height: 160px;
+}
+.dl1{
+	height: 270px;
+	width: 950px;
+	margin-bottom: 60px;
+}
+.dl1 dt{
+	float: left;
+	margin-right: 53px;
+}
+.dl1 dd img{
+	margin-right: 13px;
+}
+.dl1 dd h2{
+	line-height: 105px;
+}
+.dl1 dd span{
+	font-size: 14px;
+	line-height: 35px;
+}

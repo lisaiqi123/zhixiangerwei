@@ -1,0 +1,246 @@
+/*main中大标题*/
+.bigtitle{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 5px;
+	box-sizing: border-box;
+	line-height: 92px;
+	font-size: 25px;
+	border-bottom: 3px solid #00bd70;
+}
+main{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 5px;
+	box-sizing: border-box;
+	float: left;
+}
+/*main中招聘职位及详情*/
+.dl3{
+	width: 100%;
+}
+.dl3 dt{
+	width: 100%;
+	margin: 0 auto;
+	line-height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;
+	box-sizing: border-box;
+}
+
+/*dt中展开和收回*/
+.zhuanmore{
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 14px;
+	height: 14px;
+	border-right: 1px solid #141414;
+	border-bottom: 1px solid #141414;
+	transform: rotateZ(45deg);
+}
+.zhuanmore1{
+	display: none;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	width: 14px;
+	height: 14px;
+	border-right: 1px solid #141414;
+	border-bottom: 1px solid #141414;
+	transform: rotateZ(-135deg);
+}
+.dl3 dd{
+	width: 100%;
+	background: -webkit-linear-gradient(top, #ceefe1 0.5%, #f9f9f9 10%);
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	height: 300px;
+	position: relative;
+}
+.detail{
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -50%;
+	padding-left: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.dl3 dd p{
+	display: block;
+	line-height: 16px;
+	font-size: 9px;
+	color: #999999;
+}
+.dl3 dd p:nth-child(5){
+	margin-bottom: 15px;
+}
+.dl3 dd p:nth-child(8){
+	margin-bottom: 15px;
+}
+.close{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	bottom:0px;
+	cursor: pointer;
+}
+.close span{
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	margin-top: -1px;
+	width: 20px;
+	height: 2px;
+	background: #ccc;
+}
+.zhuan1{
+	transform: rotateZ(45deg);
+}
+.zhuan2{
+	transform: rotateZ(-45deg);
+}
+/*联系方式*/
+.contact{
+	width: 100%;
+	height: 150px;
+	margin: 40px auto;
+	background: #f9f9f9;
+	position: relative;
+}
+.dl1{
+	padding-top: 20px;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	margin-left: -50%;
+	top: 0;
+}
+.dl1 dd img{
+	margin-right: 24px;
+}
+.dl1 dd{
+	line-height: 38px;
+	font-size: 15px;
+}
+input{
+	padding-left: 7px;
+}
+.regist{
+	width: 100%;
+	height: 600px;
+	margin-top: 40px;
+	background: #f9f9f9;
+	position: relative;
+}
+.regist1{
+	height: 531px;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -50%;
+	top: 95px;
+	padding-left: 5px;
+	padding-right: 5px;
+	box-sizing: border-box;
+}
+.dl4{
+	height: 49px;
+	width: 100%;
+	border-bottom: 1px solid #eeeeee;
+}
+.dl4 dt{
+	line-height: 49px;
+	font-size: 14px;
+	color: #575757;
+	float: left;
+	width: 11%;
+}
+.dl4 dd{
+	line-height: 49px;
+	width: 88%;
+	float: left;
+	color: #808080;
+}
+.txt1{
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	width: 130px;
+	height: 30px;
+	background: #eeeeee;
+}
+.txt2{
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	width: 180px;
+	height: 30px;
+	background: #eeeeee;
+}
+.txt3{
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	width: 76%;
+	height: 30px;
+	background: #eeeeee;
+}
+.dl6{
+	height: 154px;
+	width: 100%;
+	border-bottom: 1px solid #eeeeee;
+}
+.dl6 dt{
+	line-height: 154px;
+	font-size: 14px;
+	color: #575757;
+	float: left;
+	width: 11%;
+}
+.txt4{
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	width: 70%;
+	height: 130px;
+	background: #eeeeee;
+	margin-top: 9px;
+	padding-left: 7px;
+	padding-top: 4px;
+}
+.btn{
+	position: absolute;
+	right: 67px;
+	bottom: 30px;
+	width: 85px;
+	height: 30px;
+	border: 3px solid #00bd70;
+	color: #00bd70;
+	padding-left: 12px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 5px;
+	line-height: 24px;
+	font-size:14px;
+	cursor: pointer;
+}
+.btnspan{
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	width: 12px;
+	height: 12px;
+	transform: rotateZ(-45deg);
+	border-bottom: 1px solid #00bd70;
+	border-right: 1px solid #00bd70;
+
+}

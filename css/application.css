@@ -1,0 +1,41 @@
+.map{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 88px;
+	float: left;
+}
+.map img{
+	width: 100%;
+}
+main{
+	width: 950px;
+	margin: 0 auto;
+}
+.dl1{
+	float: left;
+	height: 603px;
+	width: 300px;
+}
+.dl1:nth-child(1){
+	margin-right: 25px;
+}
+.dl1:nth-child(2){
+	margin-right: 25px;
+}
+.dl1 dt{
+	float: left;
+}
+.dl1 dt h2{
+	padding-top: 22px;
+	padding-bottom: 36px;
+	font-size: 22px;
+	box-sizing: border-box;
+	border-top: 3px solid #00bd70;
+}
+.dl1 dd{
+	margin-top: 34px;
+	line-height: 18px;
+	font-size: 12px;
+	float: left;
+	color: #575757;
+}

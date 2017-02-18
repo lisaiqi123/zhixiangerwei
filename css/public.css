@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+}
+body{
+	font-family: "微软雅黑","Arial";
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.layout{
+	width: 100%;
+	height: auto;
+}
+/*每个页面的导航栏 含搜索框、语言的切换*/
+.navout{
+	width: 100%;
+	height: 75px;
+	float: left;
+	position: relative;
+	background: url(../img/home/nav1.png) center no-repeat;
+	background-size: cover;
+}
+.nav{
+	width: 950px;
+	height: 75px;
+	margin: 0 auto;
+	position: relative;
+}
+.a_link{
+	width: 65px;
+	height: 75px;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.menulis{
+	float: right;
+	height: 75px;
+	line-height: 75px;
+}
+.menulis li{
+	float: left;
+	font-size: 10px;
+	margin-right: 31px;
+}
+.menulis li a{
+	color: #fff;
+}
+.menulis li a:hover{
+	color: #00bd70;
+}
+.change{
+	float: right;
+	width: 130px;
+	height: 30px;
+	margin-top: 22px;
+}
+.change p{
+	color: #00bd70;
+	width: 80px;
+	height: 23px;
+	border: 1px solid #00bd70;
+	line-height: 23px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 4px;
+	float: right;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.change p span{
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+	margin-left: 8px;
+	border-right: 1px solid #00bd70;
+	border-bottom: 1px solid #00bd70;
+	transform: translateY(-2px) rotateZ(45deg);
+}
+.plis{
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 41px;
+	width: 80px;
+	z-index: 4;
+	border: 1px solid #00bd70;
+	border-radius: 4px;
+}
+.plis li{
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	width: 80px;
+	border-bottom: 1px solid #00bd70;
+	font-size: 12px;
+	color: #00bd70;
+	background: #535353;
+	cursor: pointer;
+}
+.change1{
+	display: none;
+	float: right;
+	width: 130px;
+	height: 25px;
+	margin-top: 23px;
+}
+.change1 input{
+	width: 130px;
+	height: 23px;
+	line-height: 23px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	background: #fff;
+	padding-left: 7px;
+	box-sizing: border-box;
+}
+.change1 img{
+	position: absolute;
+	right: 0;
+	top: 22px;
+}
+.search{
+	display: inline-block;
+	float: right;
+	margin-top: 6px;
+	margin-left: 17px;
+	margin-right: 7px;
+	cursor: pointer;
+}
+/*每个页面的footer ，公共的*/
+footer{
+	height: 330px;
+	width: 100%;
+	float: left;
+	background: #eeeeee;
+}
+.footer{
+	width: 950px;
+	height: 330px;
+	margin: 0 auto;
+}
+.foot_left a{
+	color: #3d3d3d;
+}
+.foot_left dl{
+	margin-top: 50px;
+	margin-right: 100px;
+	float: left;
+}
+.foot_left dl dt{
+	margin-bottom: 20px;
+}
+.foot_left dl dd{
+	line-height: 20px;
+	font-size: 10px;
+}
+/*鼠标滑过字体颜色变化*/
+.foot_left dl dt a:hover{
+	color: #00bd70;
+}
+.foot_left dl dd a:hover{
+	color: #00bd70;
+}
+.foot_right{
+	float: right;
+	margin-top: 50px;
+}
+.footp1{
+	font-size: 12px;
+	margin-bottom: 18px;
+}
+.footp2{
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.footp3{
+	font-size: 12px;
+	width: 65px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #00bd70;
+	border-radius: 4px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.foot_bottom{
+	width: 950px;
+	height: 140px;
+	border-top: 1px solid #ccc;
+	float: left;
+	margin-top: 20px;
+	padding-top: 25px;
+	position: relative;
+}
+.netP{
+	font-size: 8px;
+	color: #a1a1a1;
+	float: left;
+}
+.language{
+	position: absolute;
+	right: 0;
+	top: 25px;
+	width: 80px;
+	height: 23px;
+	border: 1px solid #00bd70;
+	line-height: 23px;
+	text-align: center;
+	font-size: 8px;
+	border-radius: 4px;
+	color: #00bd70;
+	cursor: pointer;
+}
+.language span{
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+	margin-left: 8px;
+	border-right: 1px solid #00bd70;
+	border-bottom: 1px solid #00bd70;
+	transform: translateY(-2px) rotateZ(45deg);
+}
+.bottom_li{
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	width: 80px;
+	border: 1px solid #00bd70;
+	border-radius: 4px;
+}
+.bottom_li li{
+	height: 23px;
+	width: 80px;
+	line-height: 23px;
+	border-bottom: 1px solid #00bd70;
+	text-align: center;
+	color: #00bd70;
+	font-size: 8px;
+	background: transparent;
+	cursor: pointer;
+}
+/*每个页面的header*/
+.header{
+	width: 100%;
+	height: 150px;
+	float: left;
+	background: #eeeeee;
+}
+.header_con{
+	width: 950px;
+	height: 150px;
+	margin: 0 auto;
+}
+.header_p{
+	width:28px;
+	height: 28px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	transform: translateY(70px) translateX(7px) rotateZ(135deg);
+	cursor: pointer;
+}
+.kown{
+	font-size: 29px;
+	color: #000;
+	float: right;
+	margin-top: 30px;
+}
+.kown1{
+	font-size: 13px;
+	color: #000;
+	clear:both;
+	float: right;
+}
+/*footer之上的bottom  了解公司详情更多*/
+.secAbout{
+	width: 100%;
+	height: 248px;
+	float: left;
+}
+.aboutCompany{
+	width: 950px;
+	height: 248px;
+	margin: 0 auto;
+}
+.dl2 dt{
+	float: left;
+	height: 248px;
+	margin-top: 35px;
+	margin-right: 30px;
+}
+.dl2 dd{
+	float: left;
+	width: 320px;
+}
+.dl2 dd p:nth-child(1){
+	margin-top: 60px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+.dl2 dd p:nth-child(2){
+	font-size: 9px;
+	float: left;
+	line-height: 18px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	color: #838383;
+}
+.dl2 dd p:nth-child(3){
+	padding-bottom: 7px;
+	border-bottom: 1px solid #00bd70;
+	width: 90px;
+	float: left;
+}
+.dl2 dd p:nth-child(3) a{
+	font-size: 14px;
+	color: #00bd70;
+}
